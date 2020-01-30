@@ -6,8 +6,7 @@ import { Task } from '../models/task';
 @Component({
   selector: 'app-todo-task',
   templateUrl: './todo-task.component.html',
-  styleUrls: ['./todo-task.component.css'],
-  encapsulation: ViewEncapsulation.Emulated
+  styleUrls: ['./todo-task.component.css']
 })
 export class TodoTaskComponent implements OnInit {
   tasksList: Array<Task> = [];
